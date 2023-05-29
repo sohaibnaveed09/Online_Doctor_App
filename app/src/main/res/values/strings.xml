@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">online doctor</string>
+    <string name="docdoc">DocDoc</string>
+    <string name="recommend_you_doctors">Recommend You Doctors</string>
+    <string name="_100_of_millions_users">100 Of Millions Users</string>
+    <string name="loading">loading</string>
+    <string name="username">Enter Username/Email</string>
+    <string name="password2">Password</string>
+    <string name="login">Login</string>
+    <string name="click_here_to_register">Click here to register?</string>
+    <string name="loading1">loading</string>
+    <string name="registration_for_patient">Registration for patient</string>
+    <string name="contact_no">Contact no</string>
+    <string name="P_contact">Contact no</string>
+    <string name="D_contact">Contact no</string>
+    <string name="password1">Password</string>
+    <string name="P_password">Password</string>
+    <string name="D_password">Password</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="P_username">Enter your name</string>
+    <string name="D_username">Enter your name</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="P_confirmpass">Confirm password</string>
+    <string name="D_confirmpass">Confirm password</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="P_email">Enter your email</string>
+    <string name="D_email">Enter your email</string>
+    <string name="con">Continue</string>
+    <string name="registration_for_doctor">Registration for Doctor</string>
+    <string name="password">Password</string>
+    <string name="qualification">Qualification</string>
+    <string name="enter_your_email1">Enter your email</string>
+    <string name="confirm_password1">Confirm password</string>
+    <string name="contact_no1">Contact no</string>
+    <string name="enter_your_name1">Enter your name</string>
+    <string name="con2">continue</string>
+    <string name="experience">Experience</string>
+    <string name="con1">continue</string>
+    <string name="select_appro">Select appropiate section to register yourself</string>
+    <string name="docdoc1">DOCDOC</string>
+    <string name="docdoc2">DOCDOC</string>
+    <string name="docdoc3">DOCDOC</string>
+    <string name="docdoc4">DOCDOC</string>
+    <string name="docdoc5">DOCDOC</string>
+    <string name="verificationbutton">Continue</string>
+    <string name="recoverbutton">Continue</string>
+    <string name="changepassbutton">Continue</string>
+    <string name="P_button">Continue</string>
+    <string name="D_button">Continue</string>
+    <string name="loginbutton">Login</string>
+    <string name="forget_password">Forget password?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string-array name="Names">
+        <item>Ser Ma Dard</item>
+        <item>Belly Ma Dard</item>
+        <item>Gala Ma kuch Phas gia(Khansi)</item>
+        <item>Constipation</item>
+        <item>Motion</item>
+    </string-array>
+
+    <string name="B1">Ser Ma Dard</string>
+    <string name="B2">Belly Ma Dard</string>
+    <string name="B3">Gala Ma kuch Phas gia(Khansi)</string>
+    <string name="B4">Constipation</string>
+    <string name="B5">Motion</string>
+    <string name="B6">Dengue Machar</string>
+
+</resources>

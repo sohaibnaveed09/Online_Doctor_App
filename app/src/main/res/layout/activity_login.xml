@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_1"
+    android:scrollbarSize="10sp">
+
+   <ImageView
+       android:id="@+id/imageView"
+       android:layout_width="160dp"
+       android:layout_height="180dp"
+       android:layout_marginTop="25dp"
+       android:layout_marginBottom="28dp"
+       android:contentDescription="@string/loading"
+       app:layout_constraintBottom_toTopOf="@+id/U_username"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.50"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:srcCompat="@drawable/doctorre" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/U_username"
+        android:hint="Enter your Phone Number"
+        app:hintTextColor="@color/white"
+        android:background="@drawable/shape"
+        android:textColorHint="@color/white"
+        android:paddingStart="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/U_password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.523"
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:inputType="textEmailAddress">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/U_password"
+        android:hint="Password"
+        app:hintTextColor="@color/white"
+        android:background="@drawable/shape"
+        android:textColorHint="@color/white"
+        android:paddingStart="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="12dp"
+        app:passwordToggleEnabled="true"
+        app:layout_constraintBottom_toTopOf="@+id/forget_pass"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/U_username"
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:inputType="textPassword">
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/forget_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="84dp"
+        android:gravity="center"
+        android:text="@string/forget_password"
+        android:textColor="#0B0A0A"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/U_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/U_password" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.609" />
+
+    <Button
+        android:id="@+id/U_button"
+        android:layout_width="115dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button"
+        android:text="@string/loginbutton"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/click_register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/forget_pass" />
+
+    <Button
+        android:id="@+id/click_register"
+        android:layout_width="278dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/button"
+        android:text="@string/click_here_to_register"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/U_button"
+        tools:ignore="TextContrastCheck" />
+
+   <TextView
+       android:id="@+id/textView6"
+       android:layout_width="230dp"
+       android:layout_height="45dp"
+       android:layout_marginBottom="36dp"
+       android:fontFamily="cursive"
+       android:text="@string/docdoc1"
+       android:textAlignment="center"
+       android:textColor="#051159"
+       android:textSize="25sp"
+       android:textStyle="bold"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.50"
+       app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
